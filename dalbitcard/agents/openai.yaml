@@ -1,0 +1,3 @@
+interface:
+  display_name: "Dalbit Card"
+  short_description: "Create Dalbit symbol cards from Product Master and photos"

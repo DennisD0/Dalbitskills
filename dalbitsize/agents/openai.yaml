@@ -1,0 +1,3 @@
+interface:
+  display_name: "Dalbit Size Info"
+  short_description: "Add size, closure, and material text to Dalbit photos"

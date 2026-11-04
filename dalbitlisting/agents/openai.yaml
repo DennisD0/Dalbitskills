@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dalbit Listing"
+  short_description: "Draft Etsy copy and add verified listing media"
+  default_prompt: "Use $dalbitlisting for a Dalbit product. Ask for the SKU if missing, verify it in Dalbit_Product_Master, and identify the exact Etsy listing. For copy, consult the brand guide and keyword database; for media, inspect the matching local files and current Etsy gallery. Use an existing listing video if no local video exists, or skip video when neither exists. Draft copy by default; change Etsy copy or media only when I ask to apply them."

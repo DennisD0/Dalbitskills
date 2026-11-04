@@ -16,7 +16,7 @@ Inspect an approved Dalbit card, such as [Blue Stone](../../dalbitcard/assets/ap
 
 ## Preserve the original thumbnail photograph
 
-- Start with the untouched original in `C:\Users\sshoo\Dalbit\<SKU>`, not a previous generated thumbnail. The example is a **typography/layout reference only**, never a product or background reference.
+- Start with the untouched original in `<DALBIT_ROOT>\<SKU>`, not a previous generated thumbnail. The example is a **typography/layout reference only**, never a product or background reference.
 - Preserve the original background, fabric, lighting, shadows and colors. Do not replace or extend the background, add dried flowers or other props, invent a scene, or regenerate the jewelry. The satin and flowers in the reference are not part of the requested change.
 - When the owner requires the local background to remain exactly unchanged, generate only a transparent lettering/divider layer and composite it over the original photograph. Keep the original pixels outside that overlay; use a faithful crop for framing. Do not send the whole photograph through a generative edit that could redraw the fabric or jewelry. If the owner identifies an existing local thumbnail as the target, use that exact file rather than substituting another photo.
 - Preserve every bead and its arrangement, all charms, closures, chain tails, material appearance and proportions. If editing changes those details or the original background, correct it or use a more faithful approach before delivery.

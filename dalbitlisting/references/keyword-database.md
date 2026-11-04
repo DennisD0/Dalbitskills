@@ -1,8 +1,8 @@
 # Dalbit keyword database
 
-Spreadsheet ID: `1gg7k46Hmakfw_Z08T07y0Wsx9qLNX2GtSUW1dqLbYoM`
+Spreadsheet ID: `<SPREADSHEET_ID>`
 
-URL: https://docs.google.com/spreadsheets/d/1gg7k46Hmakfw_Z08T07y0Wsx9qLNX2GtSUW1dqLbYoM/edit
+URL: private-google-link
 
 Use the connected Google Drive / Google Sheets tools and their range safety guidance. Read metadata and headers before reading or updating records. Sheet and table IDs are discoverable; never assume previous row positions or used bounds are current.
 

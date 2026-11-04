@@ -34,3 +34,6 @@ Prepares and updates the Etsy listing. It reads the keyword database and the key
 - Cultural claims need reliable sources, and estimates are labeled as estimates.
 - Existing files and previously approved assets are preserved.
 - Nothing is written to Etsy or published without the owner's approval.
+
+## Notes
+Local folder paths, Google Sheet links and account IDs are replaced with placeholders such as `<DALBIT_ROOT>` and `private-google-link`. The card and thumbnail reference images are not included. Add your own sheets, folders and Etsy connection to run the skills.

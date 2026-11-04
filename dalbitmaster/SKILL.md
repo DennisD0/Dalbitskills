@@ -1,15 +1,15 @@
 ---
 name: dalbitmaster
-description: Find SKU folders in C:\Users\sshoo\Dalbit that are absent from the live Dalbit Product Master, collect their sizes and retail prices from the user, then add rows using product photos and accurate wording reused from comparable Master rows. Use for adding missing products to the Product Master, not for Etsy listing copy.
+description: Find SKU folders in <DALBIT_ROOT> that are absent from the live Dalbit Product Master, collect their sizes and retail prices from the user, then add rows using product photos and accurate wording reused from comparable Master rows. Use for adding missing products to the Product Master, not for Etsy listing copy.
 ---
 
 # Add missing Dalbit products to the Product Master
 
 ## Sources and scope
 
-- Product photos: `C:\Users\sshoo\Dalbit`. Each immediate child folder named like a SKU (for example `b33`, `b01blue`, or `t05`) is a product candidate. Ignore non-SKU folders such as `Stone Cards` and loose shared graphics. Do not infer a new SKU from a photograph or filename.
-- Live master: [Dalbit_Product_Master](https://docs.google.com/spreadsheets/d/194QEkWHyWEDdsgV_nMvJk_IGOhl4ZsZ2L4TwpJ7NLUE/edit). Resolve its current tab, headers, data, and validation from a fresh read each run. Never rely on saved row numbers or an older export.
-- Brand and cultural reference: [dalbitbrand.md](C:/Users/sshoo/OneDrive/Documents/ChatGPT/Dalbit/dalbitbrand.md). Read it when identifying a meaningful piece or writing a cultural connection; the live Master and the owner's current directions remain authoritative for product-specific facts and labels.
+- Product photos: `<DALBIT_ROOT>`. Each immediate child folder named like a SKU (for example `b33`, `b01blue`, or `t05`) is a product candidate. Ignore non-SKU folders such as `Stone Cards` and loose shared graphics. Do not infer a new SKU from a photograph or filename.
+- Live master: [Dalbit_Product_Master](private-google-link). Resolve its current tab, headers, data, and validation from a fresh read each run. Never rely on saved row numbers or an older export.
+- Brand and cultural reference: [dalbitbrand.md](<DALBIT_WORKSPACE>/dalbitbrand.md). Read it when identifying a meaningful piece or writing a cultural connection; the live Master and the owner's current directions remain authoritative for product-specific facts and labels.
 - This skill may create rows for genuinely missing SKUs in that master. It does not publish Etsy listings or edit other files or databases.
 
 ## Workflow
